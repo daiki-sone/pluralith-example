@@ -50,4 +50,4 @@ jobs:
       - name: Pluralith Comment
         uses: Pluralith/actions/comment@v1.4.0
         with:
-          terraform-path: "${{ env.working-directory }}/comment.md"
+          terraform-path: "${{ env.working-directory }}"
