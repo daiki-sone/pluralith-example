@@ -22,3 +22,7 @@ resource "aws_instance" "app_server" {
   }
 }
 
+resource "aws_s3_bucket" "example" {
+    bucket = "test-bucket-123456789"
+    acl    = "private"
+}
