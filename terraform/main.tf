@@ -21,8 +21,3 @@ resource "aws_instance" "app_server" {
     Name = "TestInstance"
   }
 }
-
-resource "aws_s3_bucket" "example" {
-    bucket = "test-bucket-123456789"
-    acl    = "private"
-}
